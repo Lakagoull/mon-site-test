@@ -1,0 +1,41 @@
+/* Style général */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e8d8c3; /* Nude marron clair */
+  color: #4a3c31;
+}
+
+/* Menu */
+header {
+  background-color: #d5c1ab;
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3a2f27;
+}
+
+nav ul li a:hover {
+  opacity: 0.7;
+}
+
+/* Zone principale */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
