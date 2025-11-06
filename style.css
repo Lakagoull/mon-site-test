@@ -2,15 +2,18 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #d8c2a5; /* Plus foncé */
+  background-color: #b8946b; /* Marron nude foncé */
   color: #3a2f27;
 }
 
 /* Menu */
 header {
-  background-color: #c3ac8f; /* Bar menu un peu plus foncée */
+  background-color: #a37c5c;
   padding: 15px 0;
-  border-bottom: 2px solid #a69177;
+  border-bottom: 2px solid #8c6647;
+  position: sticky; /* Le menu reste visible quand on scrolle */
+  top: 0;
+  z-index: 10;
 }
 
 nav ul {
@@ -36,8 +39,23 @@ nav ul li a:hover {
   opacity: 0.6;
 }
 
-/* Section principale */
+/* Bloc central */
 .hero {
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 60px 40px;
+  background-color: #f9e9d6;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   text-align: center;
-  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-top: 0;
 }
