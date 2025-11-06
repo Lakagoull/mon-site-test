@@ -2,14 +2,15 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #e8d8c3; /* Nude marron clair */
-  color: #4a3c31;
+  background-color: #d8c2a5; /* Plus foncé */
+  color: #3a2f27;
 }
 
 /* Menu */
 header {
-  background-color: #d5c1ab;
+  background-color: #c3ac8f; /* Bar menu un peu plus foncée */
   padding: 15px 0;
+  border-bottom: 2px solid #a69177;
 }
 
 nav ul {
@@ -21,21 +22,22 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 25px;
 }
 
 nav ul li a {
   text-decoration: none;
   font-weight: bold;
   color: #3a2f27;
+  font-size: 18px;
 }
 
 nav ul li a:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
-/* Zone principale */
+/* Section principale */
 .hero {
   text-align: center;
-  padding: 100px 20px;
+  padding: 120px 20px;
 }
